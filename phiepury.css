@@ -1,0 +1,72 @@
+/*
+body::before{
+    content: "";
+    position: absolute;
+    height: 30vh;
+    width: 70vw;
+    z-index: 1;
+    border-radius: 50%;
+    background: linear-gradient(blue,yellow,green);
+    transform: translate(10em,38em);
+}
+*/
+
+h1{
+    color: rgb(206, 32, 32);
+}
+.box img{
+    border-radius: 50%;
+    height: 170px;
+    margin: 0 auto;
+    display: block;
+    
+}
+.glassy{
+    background-image: url(phie.jpg);
+    background-position: center;
+    background-size: cover;
+    border: white solid 1px;
+    z-index: 10;
+    height: 60vh;
+    width: 70vw;
+    padding: 10px;
+ margin: 2vh auto;
+ display: block;
+}
+.glass{
+    background-image: url(purity.jpg);
+    background-position: center;
+    background-size: cover;
+    border: white solid 1px;
+    z-index: 10;
+    height: 50vh;
+    width: 70vw;
+    padding: 10px;
+ margin: 2vh auto;
+ display: block;
+}
+h3{
+    color: grey;
+    text-align: center;
+    font: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    color:rgb(102, 255, 0) ;
+     line-height: 2em;
+     text-align: center;
+     font-family: fantasy;
+     
+}
+.glassy h3{
+    color: rgb(1, 25, 160);
+    text-align: center;
+    font: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.glassy p{
+    color:rgb(0, 0, 0) ;
+    line-height: 2em;
+    text-align: center;
+    font-family: fantasy;
+}

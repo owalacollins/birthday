@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ndex.css">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div class="background">
+        <video autoplay muted loop>
+            <source src="1080p.mp4" type="video/mp4" >
+
+        </video>
+        <h2>WISH <span  style="color: rgb(255, 0, 85);">YOU </span> <span style="color: blue;"> HAPPY </span> <span  style="color: rgb(102, 255, 0);"> BIRTHDAY</span></h2>
+       
+    </div>
+    <button onclick="confirmation();">START</button>
+</body>
+<script>
+    function confirmation(){
+        let name = prompt('whats your name');
+        if(name == 'purity'){
+            alert('welcome '+ name + ' ill ask you about me in oder  to open what i have for you are you ready?');
+            let course = prompt('what is my course name?');
+            if(course == 'computer and electronics engineering'){
+                
+                window.open("purity.html","width=100,height=200");
+            
+            }
+        }else if(name == 'phoebe'){
+            alert('welcome '+ name + ' ill ask you about me in oder  to open what i have for you are you ready?');
+            let sister = prompt('what is my litle sister\'s name?');
+            if(sister == 'juliet'){
+                
+             window.open("phie.html","width=100,height=200");
+            
+            }
+    }
+    }
+</script>
+</html>  
