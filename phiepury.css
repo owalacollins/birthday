@@ -56,7 +56,7 @@ p{
      line-height: 2em;
      text-align: center;
      font-family: fantasy;
-     
+     word-wrap:break-word;
 }
 .glassy h3{
     color: rgb(1, 25, 160);
@@ -69,4 +69,5 @@ p{
     line-height: 2em;
     text-align: center;
     font-family: fantasy;
+     word-wrap:break-word;
 }
