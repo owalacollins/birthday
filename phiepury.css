@@ -27,7 +27,7 @@ h1{
     background-size: cover;
     border: white solid 1px;
     z-index: 10;
-    height: 80vh;
+    height: 95vh;
     width: 97vw;
     padding: 10px;
  margin: 2vh auto;
@@ -39,8 +39,8 @@ h1{
     background-size: cover;
     border: white solid 1px;
     z-index: 10;
-    height: 70vh;
-    width: 87vw;
+    height: 87vh;
+    width: 80vw;
     padding: 10px;
  margin: 2vh auto;
  display: block;
